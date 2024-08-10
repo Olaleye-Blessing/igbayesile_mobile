@@ -1,12 +1,11 @@
-import { ThemedText } from '@/components/ThemedText';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 
-export default function LandingScreen() {
+export default function BookingScreen() {
 	return (
 		<View style={styles.container}>
 			<View>
-				<Text>Landing Screen</Text>
+				<Text>Booking Screen</Text>
 			</View>
 			<Link href='/(tabs)' asChild>
 				<Pressable>
